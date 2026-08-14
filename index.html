@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="NOVA DISTRICT — a bold contemporary streetwear collection for a new era.">
+  <title>NOVA DISTRICT — A Bold Collection for a New Era</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,500;1,500&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="progress" id="progress"></div>
+
+  <div class="loader" id="loader">
+    <div>
+      <span class="loader-brand">NOVA<br>DISTRICT</span>
+      <small>FASHION / 2026</small>
+    </div>
+  </div>
+
+  <header class="header" id="header">
+    <a class="brand" href="#home">NOVA<br>DISTRICT</a>
+
+    <nav class="desktop-nav">
+      <a href="#home">01 Home</a>
+      <a href="#arrivals">02 Arrivals</a>
+      <a href="#about">03 We Are</a>
+      <a href="#collection">04 Collection</a>
+      <a href="#contact">05 Connect</a>
+    </nav>
+
+    <button class="menu-button" id="menuButton" aria-label="Open menu">
+      <span></span><span></span>
+    </button>
+  </header>
+
+  <aside class="mobile-menu" id="mobileMenu">
+    <button class="menu-close" id="menuClose" aria-label="Close menu">×</button>
+    <p class="menu-label">NOVA DISTRICT / MENU</p>
+    <nav>
+      <a href="#home">Home <span>01</span></a>
+      <a href="#arrivals">New Arrivals <span>02</span></a>
+      <a href="#about">Who We Are <span>03</span></a>
+      <a href="#goals">Our Goal <span>04</span></a>
+      <a href="#collection">Collection <span>05</span></a>
+      <a href="#product">Product <span>06</span></a>
+      <a href="#contact">Connect <span>07</span></a>
+    </nav>
+  </aside>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow reveal">✦ When style finds its spotlight...</p>
+        <h1 class="display reveal">NOVA<br><span>DISTRICT</span></h1>
+        <h2 class="hero-sub reveal">A Bold Collection<br>for a New Era</h2>
+        <p class="hero-season reveal">A FRESH COLLECTION FOR A NEW SEASON</p>
+        <a class="red-button reveal" href="#collection">Explore Collection ↘</a>
+      </div>
+
+      <div class="hero-photo">
+        <img src="https://images.unsplash.com/photo-1525507119028-ed4c629a60a3?auto=format&fit=crop&w=1300&q=90" alt="Fashion model wearing a contemporary outfit">
+      </div>
+
+      <div class="hero-bottom">
+        <span>@NovaDistrict</span>
+        <span>www.novadistrictwear.com</span>
+        <span>01 / 07</span>
+      </div>
+    </section>
+
+    <!-- WELCOME -->
+    <section class="welcome red-section" id="welcome">
+      <div class="section-number">01</div>
+      <div class="welcome-title reveal">WELCOME</div>
+      <div class="welcome-copy reveal">
+        <p>
+          NOVA DISTRICT is built for individuals that move directly.
+          We design streetwear that blends minimal aesthetics with
+          powerful silhouette.
+        </p>
+        <p>
+          Our philosophy is simple — clear cut, strong identity and
+          confidence in every thread. Each piece is designed for modern
+          urban culture, inspired by late-night city lights and
+          early-morning ambition.
+        </p>
+        <p class="italic">We don't follow trend.<br>We define presence.</p>
+      </div>
+      <div class="welcome-photo">
+        <img src="https://images.unsplash.com/photo-1529139574466-a303027c1d8b?auto=format&fit=crop&w=1100&q=90" alt="Contemporary streetwear editorial">
+      </div>
+    </section>
+
+    <!-- ARRIVALS -->
+    <section class="arrivals white-section" id="arrivals">
+      <div class="section-top">
+        <span class="section-number">02</span>
+        <span class="small-label">NEW ARRIVALS</span>
+      </div>
+
+      <div class="split-title">
+        <h2 class="display dark reveal">NEW<br>ARRIVALS</h2>
+        <p class="arrivals-note reveal">Each piece is engineered<br>for everyday dominance.</p>
+      </div>
+
+      <div class="arrival-list">
+        <article class="arrival-row reveal">
+          <div class="arrival-number">01</div>
+          <div class="arrival-name">Structured<br>Oversized Hoodies</div>
+          <img src="https://images.unsplash.com/photo-1556821840-3a63f95609a7?auto=format&fit=crop&w=900&q=85" alt="Oversized hoodie">
+          <button class="text-button" data-product="hoodie">View piece ↗</button>
+        </article>
+
+        <article class="arrival-row reveal">
+          <div class="arrival-number">02</div>
+          <div class="arrival-name">Utility<br>Cargo Trousers</div>
+          <img src="https://images.unsplash.com/photo-1506629905607-d9f6f0f8f0f4?auto=format&fit=crop&w=900&q=85" alt="Utility cargo trousers">
+          <button class="text-button" data-product="cargo">View piece ↗</button>
+        </article>
+
+        <article class="arrival-row reveal">
+          <div class="arrival-number">03</div>
+          <div class="arrival-name">Statement<br>Outerwear</div>
+          <img src="https://images.unsplash.com/photo-1551028719-00167b16eac5?auto=format&fit=crop&w=900&q=85" alt="Statement outerwear">
+          <button class="text-button" data-product="outerwear">View piece ↗</button>
+        </article>
+      </div>
+    </section>
+
+    <!-- WHO WE ARE -->
+    <section class="who" id="about">
+      <div class="who-title display reveal">WHO<br>WE<br>ARE</div>
+
+      <div class="who-photo">
+        <img src="https://images.unsplash.com/photo-1496747611176-843222e1e57c?auto=format&fit=crop&w=1200&q=90" alt="Fashion editorial portrait">
+      </div>
+
+      <div class="who-copy reveal">
+        <span class="small-label">03 / WE ARE</span>
+        <p>
+          Nova District is a contemporary streetwear brand focused on
+          urban minimalism, functional fashion, strong identity, and
+          premium fabrics.
+        </p>
+        <p>
+          We create clothing for creators, thinkers, and leaders who
+          believe style is a statement ... not decoration.
+        </p>
+      </div>
+    </section>
+
+    <!-- GOALS -->
+    <section class="goals white-section" id="goals">
+      <div class="section-top">
+        <span class="section-number">04</span>
+        <span class="small-label">OUR GOAL</span>
+      </div>
+
+      <div class="goal-head">
+        <h2 class="display dark reveal">OUR<br>GOAL</h2>
+        <div class="goal-image reveal">
+          <img src="https://images.unsplash.com/photo-1490481651871-ab68de25d43d?auto=format&fit=crop&w=1100&q=85" alt="Fashion styling detail">
+        </div>
+      </div>
+
+      <div class="mission-grid">
+        <article class="mission reveal">
+          <span>MISSION 01</span>
+          <h3>QUALITY</h3>
+          <p>Deliver premium quality without compromising accessibility.</p>
+        </article>
+        <article class="mission reveal">
+          <span>MISSION 02</span>
+          <h3>COMMUNITY</h3>
+          <p>Build a community driven by ambition and originality.</p>
+        </article>
+        <article class="mission reveal">
+          <span>MISSION 03</span>
+          <h3>TIMELESS</h3>
+          <p>Create timeless collections that outlive seasonal trends.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- COLLECTION -->
+    <section class="collection red-section" id="collection">
+      <div class="collection-head">
+        <span class="section-number">05</span>
+        <h2 class="display reveal">COLLECTION</h2>
+        <p>Eight directions.<br>One identity.</p>
+      </div>
+
+      <div class="collection-filter">
+        <button class="filter active" data-filter="all">All</button>
+        <button class="filter" data-filter="minimal">Minimal</button>
+        <button class="filter" data-filter="utility">Utility</button>
+        <button class="filter" data-filter="formal">Formal</button>
+      </div>
+
+      <div class="collection-grid">
+        <article class="collection-card large reveal" data-category="minimal" data-product="midnight">
+          <img src="https://images.unsplash.com/photo-1529139574466-a303027c1d8b?auto=format&fit=crop&w=1100&q=85" alt="Midnight Core">
+          <div><span>01 / MIDNIGHT CORE</span><b>+</b></div>
+        </article>
+
+        <article class="collection-card reveal" data-category="utility" data-product="urban">
+          <img src="https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=900&q=85" alt="Urban Utility">
+          <div><span>02 / URBAN UTILITY</span><b>+</b></div>
+        </article>
+
+        <article class="collection-card reveal" data-category="minimal" data-product="concrete">
+          <img src="https://images.unsplash.com/photo-1509631179647-0177331693ae?auto=format&fit=crop&w=900&q=85" alt="Concrete Series">
+          <div><span>03 / CONCRETE SERIES</span><b>+</b></div>
+        </article>
+
+        <article class="collection-card reveal" data-category="minimal" data-product="mono">
+          <img src="https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&w=900&q=85" alt="Mono Essential">
+          <div><span>04 / MONO ESSENTIAL</span><b>+</b></div>
+        </article>
+
+        <article class="collection-card reveal" data-category="utility" data-product="silver">
+          <img src="https://images.unsplash.com/photo-1496747611176-843222e1e57c?auto=format&fit=crop&w=900&q=85" alt="Silver Edge">
+          <div><span>05 / SILVER EDGE</span><b>+</b></div>
+        </article>
+
+        <article class="collection-card reveal" data-category="minimal" data-product="neo">
+          <img src="https://images.unsplash.com/photo-1515372039744-b8f02a3ae446?auto=format&fit=crop&w=900&q=85" alt="Neo Minimal">
+          <div><span>06 / NEO MINIMAL</span><b>+</b></div>
+        </article>
+
+        <article class="collection-card reveal" data-category="formal" data-product="formal">
+          <img src="https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&w=900&q=85" alt="Street Formal">
+          <div><span>07 / STREET FORMAL</span><b>+</b></div>
+        </article>
+
+        <article class="collection-card reveal" data-category="utility" data-product="shadow">
+          <img src="https://images.unsplash.com/photo-1529139574466-a303027c1d8b?auto=format&fit=crop&w=900&q=85" alt="Shadow Line">
+          <div><span>08 / SHADOW LINE</span><b>+</b></div>
+        </article>
+      </div>
+    </section>
+
+    <!-- PRODUCT -->
+    <section class="product" id="product">
+      <div class="product-image">
+        <img src="https://images.unsplash.com/photo-1551488831-00ddcb6c6bd3?auto=format&fit=crop&w=1200&q=90" alt="Premium fashion garment">
+      </div>
+      <div class="product-copy red-section">
+        <span class="section-number">06</span>
+        <h2 class="display reveal">PRODUCT</h2>
+        <p class="reveal">
+          Our products are crafted using high GSM cotton, reinforced
+          stitching, breathable technical fabrics, and sustainable packaging.
+        </p>
+        <p class="product-tag reveal">Designed for movement.<br>Built for impact.</p>
+      </div>
+    </section>
+
+    <!-- CONNECT -->
+    <section class="connect white-section" id="contact">
+      <div class="connect-photo reveal">
+        <img src="https://images.unsplash.com/photo-1539109136881-3be0616acf4b?auto=format&fit=crop&w=1100&q=90" alt="Fashion model in black jacket">
+      </div>
+
+      <div class="connect-copy">
+        <span class="section-number">07</span>
+        <h2 class="display dark reveal">CONNECT<br>WITH US</h2>
+
+        <div class="contact-details reveal">
+          <p><span>Social Media :</span> @novadistrict</p>
+          <p><span>Website :</span> novadistrictwear.com</p>
+          <p><span>Address :</span> Park Street, Kolkata,<br>700016</p>
+        </div>
+
+        <form id="contactForm" class="contact-form reveal">
+          <label>
+            Your name
+            <input id="name" type="text" placeholder="Enter your name">
+          </label>
+          <label>
+            Your email
+            <input id="email" type="email" placeholder="Enter your email">
+          </label>
+          <label>
+            Message
+            <textarea id="message" rows="4" placeholder="Tell us what you have in mind"></textarea>
+          </label>
+          <button class="red-button" type="submit">Send enquiry ↗</button>
+          <p class="form-message" id="formMessage"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-brand display">NOVA<br>DISTRICT</div>
+    <div class="footer-meta">
+      <span>© 2026 NOVA DISTRICT</span>
+      <span>A BOLD COLLECTION FOR A NEW ERA</span>
+      <a href="#home">Back to top ↑</a>
+    </div>
+  </footer>
+
+  <!-- Product modal -->
+  <div class="modal" id="productModal" aria-hidden="true">
+    <button class="modal-close" id="modalClose" aria-label="Close">×</button>
+    <div class="modal-card">
+      <div class="modal-image">
+        <img id="modalImage" src="" alt="">
+      </div>
+      <div class="modal-info">
+        <span id="modalNumber">01 / NOVA DISTRICT</span>
+        <h2 id="modalTitle">MIDNIGHT CORE</h2>
+        <p id="modalDescription"></p>
+        <div class="modal-specs">
+          <span>PREMIUM FABRIC</span>
+          <span>URBAN FIT</span>
+          <span>LIMITED EDITION</span>
+        </div>
+        <button class="red-button" id="modalAction">Request piece ↗</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
