@@ -35,6 +35,7 @@ FILES
 
 RUN 
 - Open index.html in a modern browser with proper internet connection.
+- For a quick Live Demo you can visit: https://sagniksnewprojects.github.io/Nova-District-Fashion-WebDemo
 
 NOTE: 
 - This prototype uses remote Unsplashed stock images and Google Fonts. So make sure that your browser is connected to internet while visiting the Live Demo.
