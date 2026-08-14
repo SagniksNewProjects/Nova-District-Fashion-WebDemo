@@ -33,8 +33,8 @@ FILES
 - style.css
 - script.js
 
-RUN
+RUN: 
 Open index.html in a modern browser with proper internet connection.
 
-NOTE
+NOTE: 
 This prototype uses remote Unsplashed stock images and Google Fonts. So make sure that your browser is connected to internet while visiting the Live Demo.
